@@ -10,11 +10,12 @@ export default class Arrow extends Component {
   }
   
   toggleArrow = function(){
-    var arrowElement = document.querySelector('.arrow');
+    this.props.callback(this.state.status)
+    this.arrowElement = document.getElementById(this.id);
     if(this.state.status) {
-      arrowElement.classList.add("arrow-open");
+      this.arrowElement.classList.add("arrow-open");
     } else {
-      arrowElement.classList.remove("arrow-open");
+      this.arrowElement.classList.remove("arrow-open");
     }
 
     this.setState({ status: !this.state.status })
@@ -22,8 +23,9 @@ export default class Arrow extends Component {
   }.bind(this);
 
   render() {
+    this.id=`arrow-${this.props.id}`
     return (
-      <a onClick={() => this.toggleArrow()} className={`${this.props.className} arrow`}>
+      <a id={this.id} onClick={() => this.toggleArrow()} className={`${this.props.className} arrow`}>
       </a>
     );
   }
