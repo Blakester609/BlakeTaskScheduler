@@ -15,14 +15,14 @@ class LibraryCourse extends Component {
     super(props)
 
     this.state = {
-      status: false,
+      status: true,
       height: 0
     }
   }
 
   handleCallback = function(status) {
     let height = this.state.height === 0 ? 80 : 0;
-    if(status) {
+    if(!status) {
       document.getElementById(this.id).classList.add('library-course-selected');
     } else {
       document.getElementById(this.id).classList.remove('library-course-selected');
