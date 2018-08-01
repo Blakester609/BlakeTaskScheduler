@@ -74,6 +74,18 @@ export function fetchCourses() {
                 title: 'Dissecting Rails 5',
                 description: 'Learn how to build powerful applications using this comprehensive guide to the Ruby on Rails web framework.',
                 enrolled: false
+            },
+            {
+                id: 10,
+                title: "Extra Long Title Here It Is",
+                description: "Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
+                enrolled: false
+            },
+            {
+                id: 11,
+                title: "Extra Long Title Here It Is",
+                description: "Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.",
+                enrolled: false
             }
         ]
     }

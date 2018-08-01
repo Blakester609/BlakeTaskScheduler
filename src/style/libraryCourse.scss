@@ -2,8 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 45px 58px;
     grid-template-rows: 32px 1fr;
+    z-index: 50;
 
     align-items: center;
+
+    margin-right: 10px;
 
     &__title-check {
         grid-row: 1/2;
