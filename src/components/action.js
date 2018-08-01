@@ -23,19 +23,11 @@ export default class Action extends Component {
   render() {
     this.id = `action ${this.props.id}`
     return (
-      <a 
+      <a
           id={this.id}
           onClick={() => this.handleAction()} 
           className={`${this.props.className} action`}>
-         {/* { Icon("fas fa-plus-circle") } */}
-         {/* "fas fa-times-circle" */}
       </a>
   ); 
-    // return (
-    //     <button onClick={() => this.props.onClick()} className={`${this.props.className} action`}>
-    //        { Icon("fas fa-plus-circle") }
-    //        {/* "fas fa-times-circle" */}
-    //     </button>
-    // );
   }
 }

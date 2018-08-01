@@ -1,5 +1,6 @@
 .library {
     grid-column: library-s/library-e;
+    z-index: 50;
 
     display: grid;
     grid-template-rows: [title-s] 100px [title-e courses-e] repeat(auto-fit, 1fr) [courses-e];
